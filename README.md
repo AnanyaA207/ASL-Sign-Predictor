@@ -1,6 +1,6 @@
 # 🤟 ASL Sign Predictor (MediaPipe + Machine Learning)
 
-Real-time American Sign Language (ASL) letter recognition game using your webcam, powered by MediaPipe hand tracking and a machine learning model. Learn and practice ASL one sign at a time — with instant feedback and visual references!
+Real-time American Sign Language (ASL) letter recognition game using your webcam, powered by MediaPipe hand tracking and a machine learning model. Learn and practice ASL one sign at a time with visual references!
 
 ---
 
@@ -17,12 +17,11 @@ This project uses **MediaPipe** to detect 3D hand landmarks and a **RandomForest
 - 👋 Detects hand via webcam
 - 📍 Extracts 21 hand landmarks (x, y, z)
 - 🧠 Classifies your sign using a trained `.pkl` model
-- ✅ Gives feedback and moves on to the next letter
 - 📷 Shows a reference image for each letter so you can copy the pose
 
 ---
 
-## 🚀 Try It Yourself
+
 
 ### 🔧 Requirements
 
