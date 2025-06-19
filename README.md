@@ -21,7 +21,12 @@ This project uses **MediaPipe** to detect 3D hand landmarks and a **RandomForest
 
 ---
 
+## 🏗️ Model Info
 
+Model type: RandomForestClassifier (via scikit-learn)
+Features: 21 3D hand landmarks → 63 values total (x, y, z for each point)
+Training data: Preprocessed images from the [ASL Alphabet Dataset](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
+Training method: MediaPipe's landmark extraction → fed into classical ML model
 
 ### 🔧 Requirements
 
